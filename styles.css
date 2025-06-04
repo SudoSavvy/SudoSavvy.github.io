@@ -1,4 +1,4 @@
-/* Reset and Base */
+/* Reset and Base Styling */
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +12,8 @@
     background-color: #f9f9f9;
   }
   
-  /* Full-width black bar */
-  header,
-  footer {
-    width: 100%;
+  /* Header */
+  header {
     background-color: #000;
     color: white;
     text-align: center;
@@ -32,18 +30,7 @@
     font-weight: 400;
   }
   
-  footer a {
-    color: #ccc;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  /* Main content stays centered */
+  /* Main Content */
   main {
     max-width: 1000px;
     margin: 0 auto;
@@ -54,6 +41,7 @@
     margin-bottom: 2.5rem;
   }
   
+  /* Headings */
   h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -67,6 +55,7 @@
     margin-bottom: 0.5rem;
   }
   
+  /* Links */
   a {
     color: #0066cc;
     text-decoration: none;
@@ -76,7 +65,7 @@
     text-decoration: underline;
   }
   
-  /* Project styling */
+  /* Project Section */
   .project {
     background: #fff;
     padding: 1.5rem;
@@ -85,7 +74,7 @@
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
   
-  /* Resume embed */
+  /* Resume Embed Styling */
   .resume-container {
     width: 100%;
     max-width: 100%;
@@ -99,5 +88,24 @@
     width: 100%;
     height: 100%;
     border: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: white;
+    text-decoration: underline;
   }
   
