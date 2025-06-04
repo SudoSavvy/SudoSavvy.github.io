@@ -108,4 +108,23 @@
     color: white;
     text-decoration: underline;
   }
-  
+
+
+/* === BLACK BARS === */
+
+.black-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  z-index: 9999;
+}
+
+.top-bar {
+  top: 0;
+}
+
+.bottom-bar {
+  bottom: 0;
+}
