@@ -32,6 +32,13 @@ body {
     font-weight: 400;
   }
   
+  iframe {
+    width: 100%;
+    min-height: 900px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  } 
+
   footer a {
     color: #ccc;
     margin: 0 10px;
