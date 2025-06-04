@@ -72,3 +72,37 @@
     border-top: 1px solid #eee;
     color: #666;
   }
+
+  /* Resume Download Section */
+.resume-download {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #004d99;
+    text-decoration: none;
+  }
+  
+  .download-button svg {
+    margin-left: 5px;
+  }
+  
+  .file-size {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 8px;
+  }
