@@ -34,8 +34,5 @@ Feel free to explore my projects and reach out!
 
 ## Screenshot
 
-<<<<<<< HEAD
 ![Portfolio Homepage](./images/screenshot-homepage.png)  <!-- Replace with actual screenshot file -->
-=======
-![Portfolio Homepage](./screenshot-homepage.png)  <!-- Replace with actual screenshot file -->
->>>>>>> 48f54d68fd98645810eeb3c881eab310f811e74a
+
